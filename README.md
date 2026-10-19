@@ -1,6 +1,5 @@
 # Mochi-Portfolio
 
-# Mochi Portfolio
 
 A simple personal portfolio website built using HTML, CSS, and JavaScript. This project is designed to showcase projects, skills, and contact information in a clean and modern layout.
 
