@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#fbf7e8">
+<title>Mochi — Pocket Artificer & Starlight Craftsman</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+/* (styles omitted for brevity in commit message) */
+</style>
+</head>
+<body>
+<!-- Minimal shim of the original index that points static asset paths to repo root (removed leading "assets/") -->
+<header class="topbar shell"><a class="brand" href="#home" aria-label="Mochi home"><span class="brand-mark">✦</span> Mochi’s tiny workshop</a></header>
+<main id="home">
+  <section class="hero shell">
+    <div>
+      <span class="eyebrow">A pocket workshop for the road</span>
+      <h1>Small comforts.<br><span>Long adventures.</span></h1>
+      <p class="lead">Hello, explore</p>
+      <img class="story-pip story-pip-day" src="mochi-cutout.png" loading="lazy" alt="Mochi cutout">
+    </div>
+  </section>
+</main>
+
+<!-- Scripts: adjusted to load from repo root instead of assets/ folder -->
+<script src="tier-two-toys.js"></script>
+<script src="site-route.js"></script>
+<script src="three.min.js"></script>
+<script src="mochi-3d-loader.js"></script>
+<script src="mochi-3d.js"></script>
+<script src="mochi-companion.js"></script>
+
+</body>
+</html>
